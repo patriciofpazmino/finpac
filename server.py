@@ -20,7 +20,7 @@ def baruch():
 def calculate_tip():
     living_expenses = float(request.forms.get('living'))
     travel_expenses = float(request.forms.get('travel'))
-#     loan_expenses = float(request.forms.get('loan'))
+
     
 
     return template('<p>{{ tip }}</p>', tip=tip)
