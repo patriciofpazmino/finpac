@@ -7,13 +7,13 @@
 import pandas as pd
 import numpy as np
 
-datamaster=pd.read_csv('C:/Users/a.yang8/Downloads/datamaster.csv', encoding = 'unicode_escape')
+#datamaster=pd.read_csv('C:/Users/a.yang8/Downloads/datamaster.csv', encoding = 'unicode_escape')
 
 
 # In[26]:
 
 
-datamaster.columns.values
+#datamaster.columns.values
 
 
 # In[162]:
@@ -22,7 +22,7 @@ datamaster.columns.values
 import scipy
 from scipy import stats
 
-df = pd.read_csv('C:/Users/a.yang8/Downloads/datacondensed.csv', encoding = 'unicode_escape')
+df = pd.read_csv('data/datacondensed.csv', encoding = 'unicode_escape')
 
 # slope, intercept, r_value, p_value, std_err = stats.linregress([df['coa_books_supp_d'], df['coa_on_other_d'], df['coa_other_d'], df['coa_tuit_fees_d']], df['fa_loans_debt_avg_d'])
 # print(slope, intercept, r_value, p_value, std_err)
@@ -94,7 +94,7 @@ df_2017
 # In[202]:
 
 
-df_2017 = df_2017.set_index()
+#df_2017 = df_2017.set_index()
 
 
 # In[132]:
@@ -124,7 +124,7 @@ df_2017 = df_2017.set_index()
 # In[203]:
 
 
-#df_five_random = df_2017.sample(5)
+df_five_random = df_2017.sample(5)
 
 
 # In[219]:
