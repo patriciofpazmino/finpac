@@ -13,13 +13,14 @@ def predictions():
 
 @route('/baruch')
 def baruch():
-    return template('hack2', tuition=10000)
+    return template('hack2', tuition=300)
 
 
 @post('/calculate')
 def calculate_tip():
     living_expenses = float(request.forms.get('living'))
     travel_expenses = float(request.forms.get('travel'))
+    financed(tuition, living_expenses, travel_expenses)
 
     
 
