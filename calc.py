@@ -196,8 +196,8 @@ def monthlyPayment(ind):
         
 
     
-y = monthlyPayment(0)
-print(y)
+# y = monthlyPayment(0)
+# print(y)
 
 
 # In[293]:
