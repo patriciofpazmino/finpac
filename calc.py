@@ -169,13 +169,13 @@ df_on
 df_clean.index.values
 #calculates monthly payment per school in the random five
 #possible to separate it into on or off campus
-def monthlyPayment(ind):
+def monthlyPayment():
     sum_off = 0.0
     sum_on = 0.0
 #     print(df_clean.loc[ind])
     for i in df_off.columns:
         if i != 'fa_loans_debt_avg_d':
-            x = df_off.iloc[ind][i]
+            x = df_off.iloc[0][i]
     #         print(type(x))
             if type(x) is np.float64:
                 sum_off += x
@@ -183,7 +183,7 @@ def monthlyPayment(ind):
     
     for j in df_on.columns:
         if j != 'fa_loans_debt_avg_d':
-            z = df_on.iloc[ind][j]
+            z = df_on.iloc[0][j]
     #         print(type(x))
             if type(z) is np.float64:
                 sum_on += z
