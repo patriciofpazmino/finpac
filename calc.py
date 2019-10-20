@@ -124,7 +124,7 @@ df_2017
 # In[203]:
 
 
-df_five_random = df_2017.sample(5)
+df_five_random = df_2017.sample(1)
 
 
 # In[219]:
