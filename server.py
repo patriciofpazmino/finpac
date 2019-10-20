@@ -1,4 +1,5 @@
 from bottle import route, get, post, run, template, request
+from calc import monthlyPayment, financed
 
 @route('/hello/<name>')
 def index(name):
