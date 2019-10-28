@@ -7,14 +7,13 @@
     <title>{{ name }}</title>
 </head>
 <body>
-    <a href="/predictions">Furture Predictitons</a> 
+    <a href="/predictions">Future Predictitons</a>
     <h1>
-       <center> Test Name Here</center>
+       <center> FinPac</center>
    </h1>
      <p>
     <center>
-        The goal of this app is the help seniors in high school, and freshman in collge to help them plan and visualize what there finacial future could possible look like. 
-        and we will add some fluff wording here for 
+        The goal of this app is the help seniors in high school, and freshman in collge to help them plan and visualize what there finacial future could possible look like.
     </center>
     </p>
 </body>
