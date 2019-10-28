@@ -7,24 +7,22 @@
 </head>
 
 <body>
- <a href="hack.htm">Home</a> 
-   
+ <a href="/hello/finpac">Home</a>
+
     <p>
-    Tuition: {{ tuition }}
-    </p>   
-      
-I   <form action="/calculate" method="post">
+    Loan: {{ tuition }}
+    </p>
+
+    <form action="/calculate" method="post">
       <p>
-      Enter living expenses: $<input type="text" name="living" id="livingBox" size=10 value="">
+      Enter an interest rate: <input type="text" name="living" id="livingBox" size=10 value="">
       <br>
-      Tip percentage: 15%
-      </p> 
+      </p>
       <p>
-      Enter travel expenses: $<input type="text" name="travel" id="travelBox" size=10 value="">
+      Enter an amount of years to pay off the debt: <input type="text" name="travel" id="travelBox" size=10 value="">
       <br>
-      Tip percentage: 15%
-      </p> 
-      <input type="submit" value="Calculate Tip"> 
+      </p>
+      <input type="submit" value="Calculate Tip">
       <hr>
       <div id="outputDiv"></div>
     </form>
