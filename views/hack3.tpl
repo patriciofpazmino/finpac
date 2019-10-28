@@ -31,12 +31,12 @@
         font-size: 16px;
         border: none;
       }
-      
+
       .dropdown {
         position: relative;
         display: inline-block;
       }
-      
+
       .dropdown-content {
         display: none;
         position: absolute;
@@ -45,24 +45,24 @@
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
-      
+
       .dropdown-content a {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
       }
-      
+
       .dropdown-content a:hover {background-color: #ddd;}
-      
+
       .dropdown:hover .dropdown-content {display: block;}
-      
+
       .dropdown:hover .dropbtn {background-color: #3e8e41;}
  </style>
 
 </head>
 <body>
-    <a href="hack.htm">Home</a>
+    <a href="/hello/finpac">Home</a>
 
     <h2>Hoverable Dropdown</h2>
     <p>Move the mouse over the button to open the dropdown menu.</p>
@@ -70,10 +70,10 @@
       <button class="dropbtn">Dropdown</button>
       <div class="dropdown-content">
         <a href="/baruch">Baruch</a>
-        <a href="hack2.htm">Link 2</a>
-        <a href="hack2.htm">Link 3</a>
+        <!-- <a href="hack2.htm">Link 2</a>
+        <a href="hack2.htm">Link 3</a> -->
       </div>
     </div>
-    
+
 </body>
 </html>
