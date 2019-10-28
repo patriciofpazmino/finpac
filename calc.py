@@ -213,9 +213,6 @@ def monthlyPayment():
 def financed(loan, interest, years):
     debt = (loan*8) * ((1 + ((interest/12)/100)))**(years*12)
     return debt
-    
-    
-financed(300, 5, 3)
 
 
 # In[ ]:
